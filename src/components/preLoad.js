@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import ClipLoader from 'react-spinners/ClimbingBoxLoader';
 
-function App() {
+function Loader() {
   let [loading, setLoading] = useState(true);
   let [color, setColor] = useState('#ffffff');
 
@@ -25,4 +25,4 @@ function App() {
   );
 }
 
-export default App;
+export default Loader;

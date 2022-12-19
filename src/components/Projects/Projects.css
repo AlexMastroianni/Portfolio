@@ -1,0 +1,18 @@
+strong {
+  text-decoration: none;
+}
+
+strong {
+  text-decoration: none;
+}
+
+.project {
+  transition: ease-in-out;
+  transition-duration: 1s;
+}
+
+.project:hover {
+  filter: drop-shadow(0px 0px 100px #8854d3);
+  transition: ease-in-out;
+  transition-duration: 1s;
+}
