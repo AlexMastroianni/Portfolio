@@ -5,11 +5,14 @@ import Card from 'react-bootstrap/Card';
 function Projects() {
   return (
     <div>
+      <h3 className="projectTitle">
+        <strong>Projects</strong>
+      </h3>
       <div className="container text-center p-5 mt-5">
         <div className="row row-cols-4">
           <div className="col">
             <Card style={{ width: '18rem' }}>
-              <Card.Body>
+              <Card.Body className="project">
                 <Card.Title>
                   <strong>A Progressive Web App</strong>
                 </Card.Title>
@@ -35,7 +38,7 @@ function Projects() {
 
           <div className="col">
             <Card style={{ width: '18rem' }}>
-              <Card.Body>
+              <Card.Body className="project">
                 <Card.Title>
                   <strong>A Full Stack Music Social Network</strong>
                 </Card.Title>
@@ -61,7 +64,7 @@ function Projects() {
 
           <div className="col">
             <Card style={{ width: '18rem' }}>
-              <Card.Body>
+              <Card.Body className="project">
                 <Card.Title>
                   <strong>A JavaScript Coding Quiz</strong>
                 </Card.Title>
@@ -84,7 +87,7 @@ function Projects() {
           </div>
           <div className="col">
             <Card style={{ width: '18rem' }}>
-              <Card.Body>
+              <Card.Body className="project">
                 <Card.Title>
                   <strong>A JavaScript Password Generator</strong>
                 </Card.Title>
@@ -111,7 +114,7 @@ function Projects() {
         <div className="row row-cols-4">
           <div className="col">
             <Card style={{ width: '18rem' }}>
-              <Card.Body>
+              <Card.Body className="project">
                 <Card.Title>
                   <strong>An E-Commerce Backend</strong>
                 </Card.Title>
@@ -135,7 +138,7 @@ function Projects() {
 
           <div className="col">
             <Card style={{ width: '18rem' }}>
-              <Card.Body>
+              <Card.Body className="project">
                 <Card.Title>
                   <strong>A SQL Employee Tracking CLI</strong>
                 </Card.Title>
@@ -159,7 +162,7 @@ function Projects() {
 
           <div className="col">
             <Card style={{ width: '18rem' }}>
-              <Card.Body>
+              <Card.Body className="project">
                 <Card.Title>
                   <strong>A Python/Selenium Web-bot</strong>
                 </Card.Title>
@@ -183,7 +186,7 @@ function Projects() {
 
           <div className="col">
             <Card style={{ width: '18rem' }}>
-              <Card.Body>
+              <Card.Body className="project">
                 <Card.Title>
                   <strong>A Markdown Generator</strong>
                 </Card.Title>

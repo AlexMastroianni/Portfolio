@@ -31,7 +31,7 @@ function Heroimage() {
                   loop={8}
                   cursor
                   cursorStyle="_"
-                  typeSpeed={100}
+                  typeSpeed={110}
                   deleteSpeed={70}
                   delaySpeed={1000}
                 />

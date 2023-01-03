@@ -9,14 +9,17 @@ function NavBar() {
     <nav>
       <Navbar className="position-absolute top-0 start-50 translate-middle-x">
         <Container className="Nav">
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="Home">
             <strong>Salt Integration</strong>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#Projects">Projects</Nav.Link>
-              <Nav.Link href="#Resume">Resume</Nav.Link>
+              <li>
+                <link to="projects"></link>
+                <Nav.Link href="Projects">Projects</Nav.Link>
+              </li>
+              <Nav.Link href="Resume">Resume</Nav.Link>
               <NavDropdown title="Links" id="basic-nav-dropdown">
                 <NavDropdown.Item href="https://github.com/AlexMastroianni">
                   Github
