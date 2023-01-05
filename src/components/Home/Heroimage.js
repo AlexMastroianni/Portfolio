@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../Home/images/logo_transparent.png';
+import logo from '../Home/images/AvatarMaker.svg';
 import './homepage.css';
 
 import { Typewriter } from 'react-simple-typewriter';
