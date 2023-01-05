@@ -9,19 +9,19 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.css';
 
 const App = () => {
-  const [currentPage, setCurrentPage] = useState('Home');
-  const renderPage = () => {
-    if (currentPage === 'Home') {
-      return (<HomePage />)(<Heroimage />);
-    }
-    if (currentPage === 'Projects') {
-      return <Projects />;
-    }
-    if (currentPage === 'About') {
-      return <About />;
-    }
-  };
-  const handlePageChange = (page) => setCurrentPage(page);
+  // const [currentPage, setCurrentPage] = useState('Home');
+  // const renderPage = () => {
+  //   if (currentPage === 'Home') {
+  //     return (<HomePage />)(<Heroimage />);
+  //   }
+  //   if (currentPage === 'Projects') {
+  //     return <Projects />;
+  //   }
+  //   if (currentPage === 'About') {
+  //     return <About />;
+  //   }
+  // };
+  // const handlePageChange = (page) => setCurrentPage(page);
 
   const [loading, setLoading] = useState(true);
 
